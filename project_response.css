@@ -158,7 +158,9 @@
         width: 100%;
         padding-top: 5%;
     }
-
+    a {
+        background-color: transparent;
+    }
     .buton4 {
         margin-top: 2%;
         width: 34%;
@@ -187,6 +189,9 @@
         font-size: 15px;
         text-align: center;
     }
+    a {
+        background-color: transparent;
+    }
   .about {
     /* margin-top: 5%; */
     text-align: center;
@@ -195,7 +200,9 @@
     padding-top: 35%;
     margin-bottom: 35%;
 }
-
+.b2{
+    width: 44% !important;
+}
     .button {
         width: 45%;
         height: 10%;
@@ -268,11 +275,22 @@
         padding-bottom: 1%;
     }
 
+    .footer-icon a i {
+        color: black;
+        font-size: 15px;
+        background: var(--main-color);
+        border-radius: 10px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+    }
+    
     
 
     .buton4 {
         margin-top: 2%;
-        width: 40%;
+        width: 45%;
         color: var(--bg2-color);
         font-weight: 600;
         font-size: 15px;
@@ -289,7 +307,23 @@
         flex-direction: column;
         padding: 18% 4% 5% 4%;
     }
-    
+    .contact1 p {
+        font-size: 15px;
+        margin-bottom: 2%;
+    }
+    .contact1 p i {
+        color: var(--main-color);
+        font-size: 15px;
+        margin-right: 2%;
+    }
+    .footer {
+        width: 100%;
+        padding-left: 4%;
+        padding-right: 5%;
+        display: flex;
+        justify-content: space-between;
+        border-top: 3px solid #ff004f;
+    }
 }
 
 
@@ -300,9 +334,15 @@
         flex-direction: column;
         justify-content: space-between;
     }
+    a {
+        background-color: transparent;
+    }
 
     .pt1 {
         width: 100%;
+    }
+    .b2{
+        width: 44% !important;
     }
 
     .pt2 {
@@ -327,12 +367,39 @@
         font-size: 20px;
         color: #ff004f;
     }
+    .contact1 p i {
+        color: var(--main-color);
+        font-size: 15px;
+        margin-right: 2%;
+    }
+    .footer-icon a i {
+        color: black;
+        font-size: 15px;
+        background: var(--main-color);
+        border-radius: 10px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+    }
+    .footer {
+        width: 100%;
+        padding-left: 4%;
+        padding-right: 5%;
+        display: flex;
+        justify-content: space-between;
+        border-top: 3px solid #ff004f;
+    }
+    
 
     .pt1 h2 {
         font-size: 18px;
         color: #ff004f;
     }
-
+    .contact1 p {
+        font-size: 15px;
+        margin-bottom: 2%;
+    }
     .pt2 h2 {
         font-size: 18px;
         color: #ff004f;
